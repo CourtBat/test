@@ -21,6 +21,7 @@ div {
   font-weight: bold;
   color: white;
   float: left;
+  font-family: serif;
 }
 
 .slogan {
@@ -28,6 +29,7 @@ div {
   float: left;
   color: #a37b71;
   margin-top: 15px;
+  font-family: sans-serif;
 }
 
 .nav {
@@ -43,9 +45,86 @@ div {
   float: left;
   color:white;
   padding: 0 15px;
+  font-family: sans-serif;
+  border-right: 1px solid #c3a658;
 }
 
 .nav ol {
   padding: 35px;
   padding-top: 15px;
+}
+
+.about {
+  height: 211px;
+  width: 920px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #87a984;
+  display: block;
+  color: white;
+}
+
+.image {
+  float:left;
+}
+
+.h1 {
+  float: left;
+  color:white;
+  font-family: serif;
+}
+
+.side_bar {
+  background-color: #96afac;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 613px;
+  width: 200px;
+  float: left;
+}
+
+.side_bar ol {
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+
+.side_bar li {
+  width: 120px;
+  display: block;
+  border-bottom: 1px solid white;
+}
+
+.how_we_work {
+  background-color: #dbd8c5;
+  height: 613px;
+  width: 720px;
+  float: left;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+  .h2 {
+  padding-left: 10px;
+  color: #536d7c;
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        background-color: lightgrey;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    .about {
+        width:100%;
+  }
+    .how_we_work {
+        width:100%;
+    }
+    .logo_container {
+        width:100%;
+    }
 }
